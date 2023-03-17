@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <form action="/register" method="post" >
+            <div class="name">
+                <input type="text" name="userName" placeholder="Enter your firstName">
+            </div>
+
+            <div class="lastName">
+                <input type="text" name="userLastName" placeholder="Enter your lastName">
+            </div>
+
+         <div class="email">
+             <input type="email"  name="email" placeholder="enter your email">
+         </div>
+
+           <div class="gender">
+              
+                select gender:Male<input type="radio" name="gender" value="Male">Female<input type="radio" name="gender" value="Female">Other<input type="radio" name="gender" value="Other">
+            </div >
+             
+            <div class="phone">
+             <input type="number" name="number" placeholder="Enter your number">
+            </div>
+
+
+            <div class="age">
+             <input type="number" name="age" placeholder="Enter your age">
+            </div>
+
+         
+         
+            <div class="password">
+             <input type="password" name="password" placeholder="Enter your password">
+            </div>
+
+             <div class="cpassword">
+             <input type="password" name="cpassword" placeholder="confirm your password">
+            </div>
+
+            <div>
+                <input type="submit" value="register">
+            </div>
+
+         
+         </form>
+
+         <form action="/login" mothod="post">
+          <input type="email" name="email" placeholder="Enter your email" value="">
+          <input type="password" name="password" placeholder="enter password">
+          <input type="submit" value="login">
+         </form>
+</body>
+</html>
